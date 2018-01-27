@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CTLS",
+        "repositoryURL": "https://github.com/vapor/ctls.git",
+        "state": {
+          "branch": null,
+          "revision": "fddec6a4643d6e85b6bb6dc54b1b5cdbabd395d2",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "Menkyo",
+        "repositoryURL": "https://github.com/Yasumoto/Menkyo",
+        "state": {
+          "branch": null,
+          "revision": "5e24a46e526f375e055b4979992e8cb784d67150",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
