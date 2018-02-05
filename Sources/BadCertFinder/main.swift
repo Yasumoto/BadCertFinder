@@ -3,6 +3,12 @@ import Menkyo
 
 struct CertError: Error {}
 
+if (CommandLine.arguments.contains("--help") || CommandLine.arguments.contains("-h")) {
+    print("BadCertFinder <directory_to_search>")
+    print("Built from https://github.com/Yasumoto/BadCertFinder")
+    exit(1)
+}
+
 if (CommandLine.arguments.count != 2) {
     print("Please pass one directory name to parse certificates!")
     exit(1)
